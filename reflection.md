@@ -9,9 +9,11 @@ Here are two example of the controllers with a control error of 0.4
 msgJson["steering_angle"] = steer_value + 0.4;
 ```
 PD controller will control the car to move in parallel along the center line:
+
 ![Image of Yaktocat](images/pd.png)
 
 PID controller will fix the control error over time:
+
 ![Image of Yaktocat](images/pid.png)
 
 ## 2. Describe how the final hyperparameters were chosen.
